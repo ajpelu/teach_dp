@@ -10,18 +10,25 @@ editor:
   render-on-save: true
 ---
 
-## 
-### ¿Qué [estructura]{.yellow} ha de tener un Data Paper?
+# ¿Qué [estructura]{.yellow} tiene un Data Paper?
 
-- Análisis de la estructura de los data papers  
+## 
+### [Análisis de la estructura]{.yellow} de los Data Papers
 
 ![](assets/kim.png){fig-align="center"}
 
 [[Chen (2017)](https://doi.org/10.15291/libellarium.v9i2.266)]{.smaller} [[Kim (2020)](https://doi.org/10.6087/kcse.185)]{.smaller} [[Candela et al. (2015)](https://doi.org/10.1002/asi.23358)]{.smaller}
 
 ## 
-### ¿Qué [estructura]{.yellow} ha de tener un Data Paper?
+### [Componentes]{.yellow} del Data Paper
 
+![](assets/templates_field.png){fig-align="center"}
+
+[[Kim (2020)](https://doi.org/10.6087/kcse.185)]{.smaller}
+
+
+## 
+### [Análisis de la estructura]{.yellow} de los Data Papers
 
 - [Heterogeneidad]{.yellow} de plantillas/guías
   - Ausencia de estandarización  
@@ -30,66 +37,19 @@ editor:
   - ¿Cuántos datasets incluir?
   - Mayoría de guidelines centrados en 1 solo conjunto de datos
   
-- ¿Reputación del repositorio? 
+- ¿Reputación del [repositorio]{.yellow}? 
+
+
+# ¿Qué estructura se [recomienda]{.yellow} para un Data Paper?
 
 ## 
-### ¿Qué [estructura]{.yellow} ha de tener un Data Paper?
-
-![](assets/templates_field.png){fig-align="center"}
-
-[[Kim (2020)](https://doi.org/10.6087/kcse.185)]{.smaller}
-
-
-## 
-### ¿Qué [estructura]{.yellow} ha de tener un Data Paper?
-:::: {.columns}
-
-::: {.column width="50%" align="center"}
-
-No existe una plantilla o guía estándar para la publicación de DP
-
-  - Depende de la [Revista]{.yellow}
-  - Depende de la [Temática]{.yellow} 
-:::
-
-::: {.column width="40%"}
-
 ![](assets/hourglass_model_white.png){fig-align="center"}
-[University of Basel]{.smaller}
-:::
 
-::::
-
-## 
-### dependiente de la [temática]{.yellow}
-![](assets/type_genetica.png){fig-align="center"}
-
-[[Kasmi et al. 2023](https://doi.org/10.1186/s12863-023-01119-4)]{.smaller}
-
-
-## 
-### dependiente de la [temática]{.yellow}
-![](assets/type_essd.png){fig-align="center"}
-
-[[Polo et al. 2019](https://doi.org/10.5194/essd-11-393-2019)]{.smaller}
-
-
-## 
-### dependiente de la [revista]{.yellow}
-![](assets/biodiversity_phytokeys.png){fig-align="center"}
-
-[[Pérez-Luque et al. 2015](https://doi.org/10.3897%2Fphytokeys.46.9116)]{.smaller}
-
-
-## 
-### dependiente de la [revista]{.yellow}
-![](assets/biodiversity_ecosistemas.png){fig-align="center"}
-
-[[Tinaut et al. 2022](https://doi.org/10.7818/ECOS.2356)]{.smaller}
+[Fuente: University of Basel]{.smaller}
 
 
 ##
-### Componentes Recomendados de un DP 
+#### ¿Qué estructura se [recomienda]{.yellow} para un Data Paper? 
 
 Una visión a través de los diferentes *journals* 
 
@@ -126,7 +86,10 @@ Una visión a través de los diferentes *journals*
 [[Candela et al. 2015](https://doi.org/10.1002/asi.23358)]{.smaller}
 
 ##
-### Componentes Recomendados de un DP 
+#### ¿Qué estructura se [recomienda]{.yellow} para un Data Paper? 
+
+Una visión a través de los diferentes *journals* 
+
 
 [Información en común]{.yellow} [[Chen (2017)](https://doi.org/10.15291/libellarium.v9i2.266)]{.smaller}
 
@@ -134,18 +97,183 @@ Una visión a través de los diferentes *journals*
 - Origen de los datos (data provenance)
 
 
+
+##
+#### ¿Qué estructura se [recomienda]{.yellow} para un Data Paper?
+
+
+### [No existe]{.yellow} estándar/guía de la estructura de un DP
+
+  - Depende de la [revista]{.yellow}
+  - Depende de la [temática]{.yellow} 
+  - Depende de la [tipología de datos]{.yellow}
+  - ... 
+
 ## 
+### dependiente de la [temática]{.yellow}
+![](assets/type_genetica.png){fig-align="center"}
+
+[[Kasmi et al. 2023](https://doi.org/10.1186/s12863-023-01119-4)]{.smaller}
 
 
-- Hablar de ejemplos de biodiversidad: dp de eventos, de ocurrencias
-- no es una mera copia de los metadatos del repositorio (nivel de completitud). La tragedia de los comunes 
-- Importancia de los métodos
-- Uso de diccionarios controlados 
-- Buena descripción de
-- Buenas visualizaciones 
+## 
+### dependiente de la [temática]{.yellow}
+![](assets/type_essd.png){fig-align="center"}
 
-- Hacer los datos FAIRless 
-- Incluir casos de estudio 
+[[Polo et al. 2019](https://doi.org/10.5194/essd-11-393-2019)]{.smaller}
+
+
+## 
+### dependiente de la [revista]{.yellow}
+![](assets/biodiversity_phytokeys.png){fig-align="center"}
+
+[[Pérez-Luque et al. 2015](https://doi.org/10.3897%2Fphytokeys.46.9116)]{.smaller}
+
+
+## 
+### dependiente de la [revista]{.yellow}
+![](assets/biodiversity_ecosistemas.png){fig-align="center"}
+
+[[Tinaut et al. 2022](https://doi.org/10.7818/ECOS.2356)]{.smaller}
+
+
+
+## 
+### dependiente de la [tipología de Datos]{.yellow}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](assets/type_social.png){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+![](assets/type_social_map.png){fig-align="center"}
+:::
+
+::::
+
+
+[[Ros-Candeira et al. 2020](https://doi.org/10.3897/natureconservation.38.38325)]{.smaller}
+
+## 
+#### Sugerencias: [Descripción del Proyecto]{.yellow}
+
+![](assets/pheno_project.png){fig-align="center"}
+
+[[Pérez-Luque et al. 2015](https://doi.org/10.3897/phytokeys.46.9116)]{.smaller}
+
+
+## 
+#### Sugerencias: [Descripción del Proyecto]{.yellow}
+
+![](assets/pheno_project.png){fig-align="center"}
+
+[[Pérez-Luque et al. 2015](https://doi.org/10.3897/phytokeys.46.9116)]{.smaller}
+
+## 
+#### Sugerencias: [Cobertura taxonómica]{.yellow}
+:::: {.columns}
+
+::: {.column width="30%"}
+![](assets/pheno_taxo_coverage.png){fig-align="center"}
+:::
+
+::: {.column width="70%"}
+![](assets/pheno_taxo_table.png){fig-align="center"}
+:::
+::::
+
+
+## 
+#### Sugerencias: [Cobertura taxonómica]{.yellow}
+
+![](assets/taxo_marine.png){fig-align="center"}:::
+
+[[Sánchez-Jardón et al. 2022](https://doi.org/10.7818/ECOS.2410)]{.smaller}
+
+
+## 
+#### Sugerencias: [Cobertura espacial]{.yellow}
+:::: {.columns}
+
+::: {.column width="50%"}
+![](assets/pheno_study_fig.png){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+![](assets/pheno_study_picture.png){fig-align="center"}
+:::
+::::
+
+
+## 
+#### Sugerencias: [Métodos]{.yellow}
+:::: {.columns}
+
+::: {.column width="50%"}
+![](assets/pheno_methods.png){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+![](assets/pheno_methods_fig.png){fig-align="center"}
+:::
+::::
+
+
+## 
+#### Sugerencias: [Preparación de los datos; Quality Control]{.yellow}
+:::: {.columns}
+
+::: {.column width="50%"}
+![](assets/capra_gbif.png){fig-align="center"}
+
+[[Granados et al. 2020](https://doi.org/10.1038/s41597-020-0544-1)]{.smaller}
+:::
+
+::: {.column width="50%"}
+![](assets/capra_validation.png){fig-align="center"}
+:::
+::::
+
+
+## 
+#### Sugerencias: [Cómo usar los datos]{.yellow}
+:::: {.columns}
+
+::: {.column width="50%"}
+![](assets/capra_usage.png){fig-align="center"}
+
+:::
+
+::: {.column width="50%"}
+![](assets/capra_explore.png){fig-align="center"}
+
+[[Granados et al. 2020](https://doi.org/10.1038/s41597-020-0544-1)]{.smaller}
+:::
+::::
+
+
+## 
+#### Sugerencias: [Localización del dataset]{.yellow}
+
+![](assets/pheno_dataset.png){fig-align="center"}
+
+## 
+#### [Otras consideraciones]{.yellow}
+
+- Un DP no es una copia de los metadatos que un dataset tiene en un repositorio
+- Es importante describir bien los métodos
+- Uso de diccionarios controlados en la medida de los posible 
+- ... 
+- En definitiva se trata de hacer [atractivo]{.yellow} nuestro conjunto de datos para que aumente sus posibilidads de uso
+
+
+## 
+#### Principios [FAIR]{.yellow}
+
+
+![](assets/fairness_data.png){fig-align="center"}
 
 
 ## Muchas Gracias
