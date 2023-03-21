@@ -134,7 +134,6 @@ Una visión a través de los diferentes *journals*
 - Origen de los datos (data provenance)
 
 
-
 ## 
 
 
