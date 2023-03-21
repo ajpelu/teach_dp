@@ -4,7 +4,7 @@ Este repositorio contiene parte del material del Taller ***Estandarización y pu
 
 ## <img src='assets/display-solid.svg' width='25'> [Del IPT al artículo de datos](https://ajpelu.github.io/teach_dp/ipt2dp.html)
 
-## <img src='assets/display-solid.svg' width='25'> [Diapositivas 2](https://ajpelu.github.io/teach_dp_ipt2dp/ipt2dp.html)
+## <img src='assets/display-solid.svg' width='25'> [Diapositivas 2](https://ajpelu.github.io/teach_dp/dp_structure.html)
 
 ## <img src='assets/github.svg' width='30'> [Repositorio](https://github.com/ajpelu/teach_dp) con material
 
