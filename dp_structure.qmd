@@ -13,8 +13,24 @@ editor:
 ## 
 ### ¿Qué [estructura]{.yellow} ha de tener un Data Paper?
 
-- Problemática 
-- Estudios 
+- Análisis de la estructura de los data papers  
+
+![](assets/kim.png){fig-align="center"}
+
+[[Chen (2017)](https://doi.org/10.15291/libellarium.v9i2.266)]{.smaller} [[Kim (2020)](https://doi.org/10.6087/kcse.185)]{.smaller} [[Candela et al. (2015)](https://doi.org/10.1002/asi.23358)]{.smaller}
+
+## 
+### ¿Qué [estructura]{.yellow} ha de tener un Data Paper?
+
+
+- [Heterogeneidad]{.yellow} de plantillas/guías
+  - Ausencia de estandarización  
+  
+- [Granularidad]{.yellow}
+  - ¿Cuántos datasets incluir?
+  - Mayoría de guidelines centrados en 1 solo conjunto de datos
+  
+- ¿Reputación del repositorio? 
 
 ## 
 ### ¿Qué [estructura]{.yellow} ha de tener un Data Paper?
@@ -109,7 +125,18 @@ Una visión a través de los diferentes *journals*
 
 [[Candela et al. 2015](https://doi.org/10.1002/asi.23358)]{.smaller}
 
+##
+### Componentes Recomendados de un DP 
+
+[Información en común]{.yellow} [[Chen (2017)](https://doi.org/10.15291/libellarium.v9i2.266)]{.smaller}
+
+- Métodos de colecta de datos
+- Origen de los datos (data provenance)
+
+
+
 ## 
+
 
 - Hablar de ejemplos de biodiversidad: dp de eventos, de ocurrencias
 - no es una mera copia de los metadatos del repositorio (nivel de completitud). La tragedia de los comunes 
