@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-<script src="dp_structure_files/libs/clipboard/clipboard.min.js"></script>
-<script src="dp_structure_files/libs/quarto-html/tabby.min.js"></script>
-<script src="dp_structure_files/libs/quarto-html/popper.min.js"></script>
-<script src="dp_structure_files/libs/quarto-html/tippy.umd.min.js"></script>
-<link href="dp_structure_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="dp_structure_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="dp_structure_files/libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<script src="dp_intro_files/libs/clipboard/clipboard.min.js"></script>
+<script src="dp_intro_files/libs/quarto-html/tabby.min.js"></script>
+<script src="dp_intro_files/libs/quarto-html/popper.min.js"></script>
+<script src="dp_intro_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="dp_intro_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="dp_intro_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="dp_intro_files/libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.1.251">
 
   <meta name="author" content="Antonio J. Pérez-Luque">
-  <title>Estructura del Data Paper</title>
+  <title>Introducción a los Data Papers</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="dp_structure_files/libs/revealjs/dist/reset.css">
-  <link rel="stylesheet" href="dp_structure_files/libs/revealjs/dist/reveal.css">
+  <link rel="stylesheet" href="dp_intro_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="dp_intro_files/libs/revealjs/dist/reveal.css">
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -29,11 +29,11 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="dp_structure_files/libs/revealjs/dist/theme/quarto.css" id="theme">
-  <link href="dp_structure_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
-  <link href="dp_structure_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
-  <link href="dp_structure_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
-  <link href="dp_structure_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <link rel="stylesheet" href="dp_intro_files/libs/revealjs/dist/theme/quarto.css" id="theme">
+  <link href="dp_intro_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="dp_intro_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="dp_intro_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="dp_intro_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
 
   .callout {
@@ -324,308 +324,364 @@
     <div class="slides">
 
 <section id="title-slide" class="center">
-  <h1 class="title">Estructura del Data Paper</h1>
+  <h1 class="title">Introducción a los Data Papers</h1>
   <p class="subtitle"><span class="smaller">Estandarización y publicación de datos de biodiversidad marinos en GBIF y en revistas científicas (data papers)<br> Taller GBIF.ES - Nodo GBIF España<br>21-22/03/2023</span></p>
   <p class="author"><span class="yellow">Antonio J. Pérez-Luque</span></p>
   <p class="institute">SERPAM - Estación Experimental del Zaidin, CSIC</p>
 </section>
 
+<section id="publicación-de-datos" class="title-slide slide level1 center">
+<h1><span class="yellow">Publicación</span> de Datos</h1>
+
+</section>
+
 <section>
-<section id="qué-estructura-tiene-un-data-paper" class="title-slide slide level1 center">
-<h1>¿Qué <span class="yellow">estructura</span> tiene un Data Paper?</h1>
+<section id="porqué-publicar-datos" class="title-slide slide level1 center">
+<h1>… ¿porqué <span class="yellow">publicar Datos</span>?</h1>
 
 </section>
 <section id="section" class="slide level2">
 <h2></h2>
-<h3 id="análisis-de-la-estructura-de-los-data-papers"><span class="yellow">Análisis de la estructura</span> de los Data Papers</h3>
+<h4 id="porqué-publicar-datos-1">… ¿porqué <span class="yellow">publicar Datos</span>?</h4>
+<ul>
+<li>Necesitamos más información para poder abordar la actual crisis de la biodiversidad</li>
+</ul>
 
-<img data-src="assets/kim.png" class="r-stretch quarto-figure-center"><p><span class="smaller"><a href="https://doi.org/10.15291/libellarium.v9i2.266">Chen (2017)</a></span> <span class="smaller"><a href="https://doi.org/10.6087/kcse.185">Kim (2020)</a></span> <span class="smaller"><a href="https://doi.org/10.1002/asi.23358">Candela et al.&nbsp;(2015)</a></span></p>
+<img data-src="assets/dp_africa.png" class="r-stretch quarto-figure-center"><p><span class="smaller"><a href="https://doi.org/10.1016/j.biocon.2016.09.003">Stephenson et al.&nbsp;2017</a></span></p>
 </section>
 <section id="section-1" class="slide level2">
 <h2></h2>
-<h3 id="componentes-del-data-paper"><span class="yellow">Componentes</span> del Data Paper</h3>
+<h4 id="porqué-publicar-datos-2">… ¿porqué <span class="yellow">publicar Datos</span>?</h4>
+<ul>
+<li>Existencia de sesgos (temporales, espaciales, taxonómicos) en la información disponible</li>
+</ul>
 
-<img data-src="assets/templates_field.png" class="r-stretch quarto-figure-center"><p><span class="smaller"><a href="https://doi.org/10.6087/kcse.185">Kim (2020)</a></span></p>
+<img data-src="assets/dp_sesgos.png" class="r-stretch quarto-figure-center"><p><span class="smaller"><a href="https://doi.org/10.1111/een.13027">Rocha-Ortega et al.&nbsp;2021</a></span></p>
 </section>
 <section id="section-2" class="slide level2">
 <h2></h2>
-<h3 id="análisis-de-la-estructura-de-los-data-papers-1"><span class="yellow">Análisis de la estructura</span> de los Data Papers</h3>
+<h4 id="porqué-publicar-datos-3">… ¿porqué <span class="yellow">publicar Datos</span>?</h4>
 <ul>
-<li><span class="yellow">Heterogeneidad</span> de plantillas/guías
-<ul>
-<li>Ausencia de estandarización</li>
-</ul></li>
-<li><span class="yellow">Granularidad</span>
-<ul>
-<li>¿Cuántos datasets incluir?</li>
-<li>Mayoría de guidelines centrados en 1 solo conjunto de datos</li>
-</ul></li>
-<li>¿Reputación del <span class="yellow">repositorio</span>?</li>
+<li>Gran parte de los datos <span class="yellow">no están accesibles</span> imposibilitando su reutilización</li>
 </ul>
-</section></section>
-<section>
-<section id="qué-estructura-se-recomienda-para-un-data-paper" class="title-slide slide level1 center">
-<h1>¿Qué estructura se <span class="yellow">recomienda</span> para un Data Paper?</h1>
-
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="assets/dp_peligro.png" height="300"></p>
+</figure>
+</div>
+<p>datos <span class="yellow">En Peligro de Extición</span></p>
+<p><span class="smaller"><a href="https://doi.org/10.1371/journal.pbio.1002295">Roche et. al.&nbsp;2015</a></span></p>
 </section>
 <section id="section-3" class="slide level2">
 <h2></h2>
+<h4 id="porqué-publicar-datos-4">… ¿porqué <span class="yellow">publicar Datos</span>?</h4>
+<p><span class="smaller">The early bird gets the return: The benefits of publishing your data sooner</span></p>
 
-<img data-src="assets/hourglass_model_white.png" class="r-stretch quarto-figure-center"><p><span class="smaller">Fuente: University of Basel</span></p>
+<img data-src="assets/dp_sooner.png" class="r-stretch quarto-figure-center"><p><span class="smaller"><a href="https://doi.org/10.1002/ece3.7853">Lortie 2021</a></span></p>
 </section>
-<section id="section-4" class="slide level2">
+<section id="section-4" class="slide level2" data-background-color="white">
 <h2></h2>
-<h4 id="qué-estructura-se-recomienda-para-un-data-paper-1">¿Qué estructura se <span class="yellow">recomienda</span> para un Data Paper?</h4>
-<p>Una visión a través de los diferentes <em>journals</em></p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><span class="yellow">1.</span> Availability</p>
-<p><span class="yellow">2.</span> Competing interest</p>
-<p><span class="yellow">3.</span> Coverage</p>
-<p><span class="yellow">4.</span> Format</p>
-<p><span class="yellow">5.</span> License</p>
-</div><div class="column" style="width:50%;">
-<p><span class="yellow">6.</span> Microattribution</p>
-<p><span class="yellow">7.</span> Project</p>
-<p><span class="yellow">8.</span> Provenance</p>
-<p><span class="yellow">9.</span> Quality</p>
-<p><span class="yellow">10.</span> Reuse</p>
-</div>
-</div>
-<p><span class="smaller"><a href="https://doi.org/10.1002/asi.23358">Candela et al.&nbsp;2015</a></span></p>
+<h4 id="porqué-publicar-datos-5">… <span class="darkblue">¿porqué</span> <span class="yellow">publicar Datos</span><span class="darkblue">?</span></h4>
+<p>Reducción del riesgo de pérdida de los datos</p>
+
+<img data-src="assets/dp_michener.png" class="r-stretch quarto-figure-center"><p><span class="smaller"><a href="https://doi.org/10.1890/1051-0761(1997)007%5B0330:NMFTES%5D2.0.CO;2">Michener et al.&nbsp;1997</a></span></p>
+</section></section>
+<section>
+<section id="obstáculos-para-publicar-datos" class="title-slide slide level1 center">
+<h1>… <span class="yellow">obstáculos</span> para publicar Datos</h1>
+
 </section>
 <section id="section-5" class="slide level2">
 <h2></h2>
-<h4 id="qué-estructura-se-recomienda-para-un-data-paper-2">¿Qué estructura se <span class="yellow">recomienda</span> para un Data Paper?</h4>
-<p>Una visión a través de los diferentes <em>journals</em></p>
-<p><span class="yellow">Información en común</span> <span class="smaller"><a href="https://doi.org/10.15291/libellarium.v9i2.266">Chen (2017)</a></span></p>
+<h3 id="section-6"></h3>
+<p>La mayoría de los investigadores reconocen la importancia de compartir datos (<span class="yellow">beneficios</span>), aunque señalan diferentes barreras (<span class="yellow">costes</span>)</p>
+<div>
 <ul>
-<li>Métodos de colecta de datos</li>
-<li>Origen de los datos (data provenance)</li>
+<li class="fragment"><p>Dificultad para la publicación de los datos</p></li>
+<li class="fragment"><p>Escasez de herramientas sencillas y protocolos para la redacción de los documentos de metadatos</p></li>
+<li class="fragment"><p>Gran heterogeneidad y diversidad de estándares, herramientas y extensiones de Metadatos</p></li>
+<li class="fragment"><p>Alto coste y mantenimiento de las infraestructuras necesarias para gestionar la información</p></li>
+<li class="fragment"><p><span class="yellow">Escaso beneficio directo para los proveedores de datos</span></p></li>
 </ul>
-</section>
-<section id="section-6" class="slide level2">
-<h2></h2>
-<h4 id="qué-estructura-se-recomienda-para-un-data-paper-3">¿Qué estructura se <span class="yellow">recomienda</span> para un Data Paper?</h4>
-<h3 id="no-existe-estándarguía-de-la-estructura-de-un-dp"><span class="yellow">No existe</span> estándar/guía de la estructura de un DP</h3>
-<ul>
-<li>Depende de la <span class="yellow">revista</span></li>
-<li>Depende de la <span class="yellow">temática</span></li>
-<li>Depende de la <span class="yellow">tipología de datos</span></li>
-<li>…</li>
-</ul>
-</section>
-<section id="section-7" class="slide level2">
-<h2></h2>
-<h3 id="dependiente-de-la-temática">dependiente de la <span class="yellow">temática</span></h3>
+</div>
+</section></section>
+<section>
+<section id="data-paper" class="title-slide slide level1 center">
+<h1>… <span class="yellow">Data Paper</span></h1>
 
-<img data-src="assets/type_genetica.png" class="r-stretch quarto-figure-center"><p><span class="smaller"><a href="https://doi.org/10.1186/s12863-023-01119-4">Kasmi et al.&nbsp;2023</a></span></p>
+</section>
+<section id="section-7" class="slide level2" data-background-color="white">
+<h2></h2>
+
+<img data-src="assets/dp_perez_ros.png" class="r-stretch quarto-figure-center"><p><span class="smaller"><a href="https://doi.org/10.7818/ECOS.1838">Pérez-Luque &amp; Candeira 2019</a></span></p>
 </section>
 <section id="section-8" class="slide level2">
 <h2></h2>
-<h3 id="dependiente-de-la-temática-1">dependiente de la <span class="yellow">temática</span></h3>
-
-<img data-src="assets/type_essd.png" class="r-stretch quarto-figure-center"><p><span class="smaller"><a href="https://doi.org/10.5194/essd-11-393-2019">Polo et al.&nbsp;2019</a></span></p>
+<blockquote>
+<p><em>Artículo académico que describe un conjunto de datos de biodiversidad y se publica en una revista científica al uso</em></p>
+</blockquote>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="assets/dp_penev.png" height="350"></p>
+</figure>
+</div>
+<p><span class="smaller"><a href="https://doi.org/10.1186/1471-2105-12-S15-S2">Chavan &amp; Penev (2011)</a></span></p>
 </section>
 <section id="section-9" class="slide level2">
 <h2></h2>
-<h3 id="dependiente-de-la-revista">dependiente de la <span class="yellow">revista</span></h3>
-
-<img data-src="assets/biodiversity_phytokeys.png" class="r-stretch quarto-figure-center"><p><span class="smaller"><a href="https://doi.org/10.3897%2Fphytokeys.46.9116">Pérez-Luque et al.&nbsp;2015</a></span></p>
+<h3 id="qué-es-un-data-paper">¿Qué es un <span class="yellow">Data Paper</span>?</h3>
+<div>
+<ul>
+<li class="fragment"><p>Un <span class="yellow">incentivo</span>: una herramienta para favorecer la inversion de esfuerzos en la publicación de datos de biodiversidad</p></li>
+<li class="fragment"><p>Una <span class="yellow">publicación académica</span> que se ajusta a las practices académicas estándar sobre un documento que contiene los metadatos de uno o varios datasets accesibles</p></li>
+<li class="fragment"><p>Un artículo científico cuyo <span class="yellow">propósito</span> es describir datos más que realizar una investigación.</p></li>
+<li class="fragment"><p>Contiene hechos sobre los datos y no hipótesis ni argumentaciones basadas en los datos, aunque pueden inclur análisis descriptivos</p></li>
+</ul>
+</div>
 </section>
 <section id="section-10" class="slide level2">
 <h2></h2>
-<h3 id="dependiente-de-la-revista-1">dependiente de la <span class="yellow">revista</span></h3>
+<h4 id="qué-es-un-data-paper-1">¿Qué es un <span class="yellow">Data Paper</span>?</h4>
+<p>Landscape of Open Data in ecology</p>
 
-<img data-src="assets/biodiversity_ecosistemas.png" class="r-stretch quarto-figure-center"><p><span class="smaller"><a href="https://doi.org/10.7818/ECOS.2356">Tinaut et al.&nbsp;2022</a></span></p>
+<img data-src="assets/dp_landscape.png" class="r-stretch quarto-figure-center"><p><span class="smaller"><a href="https://doi.org/10.1038/s41559-017-0458-2">Culina et al.&nbsp;2018</a></span></p>
 </section>
 <section id="section-11" class="slide level2">
 <h2></h2>
-<h3 id="dependiente-de-la-tipología-de-datos">dependiente de la <span class="yellow">tipología de Datos</span></h3>
-<div class="columns">
-<div class="column" style="width:50%;">
+<h4 id="dataset-repositorios-data-paper">dataset, repositorios, <span class="yellow">data paper</span> …</h4>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="assets/type_social.png"></p>
+<p><img data-src="assets/dp_candela_flow.png" height="350"></p>
 </figure>
 </div>
-</div><div class="column" style="width:50%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="assets/type_social_map.png"></p>
-</figure>
-</div>
-</div>
-</div>
-<p><span class="smaller"><a href="https://doi.org/10.3897/natureconservation.38.38325">Ros-Candeira et al.&nbsp;2020</a></span></p>
+<p><span class="smaller"><a href="https://doi.org/10.1002/asi.23358">Candela et al.&nbsp;(2015)</a></span></p>
+</section>
+<section id="objetivos-de-un-data-paper" class="slide level2">
+<h2><span class="yellow">Objetivos</span> de un Data Paper</h2>
+<ul>
+<li><p>Proporcionar una publicación científica citable que dé reconocimiento académico (beneficio) a los proveedores de datos</p></li>
+<li><p>Describir los datos de una forma entendible y estructurada</p></li>
+<li><p>Facilitar la visibilidad de los datos de biodiversidad entre la comunidad científica</p></li>
+</ul>
 </section>
 <section id="section-12" class="slide level2">
 <h2></h2>
-<h4 id="estructura-flexible">Estructura flexible</h4>
+<h3 id="beneficios-de-un-data-paper"><span class="yellow">Beneficios</span> de un Data Paper</h3>
 <ul>
-<li><p><span class="yellow">Introducción</span></p>
-<ul>
-<li>contexto de los datos</li>
-<li>proyecto</li>
-</ul></li>
-<li><p><span class="yellow">Cobertura</span> de los datos: taxonómica, espacial, temporal</p></li>
-<li><p><span class="yellow">Protocolos</span></p>
-<ul>
-<li>Diseño experimental</li>
-<li>Procedimientos, técnicas de conservación, variables</li>
-</ul></li>
+<li>Crédito en una publicación académica</li>
+<li>Citación de los datos</li>
+<li>Reconocimiento y construcción de carrera</li>
+<li>Posibilidad de rastrear el uso</li>
+<li>Es una ventana abierta para la colaboración</li>
+<li>Proceso de revisión de los datos</li>
+<li>Más fáciles de descubrir</li>
 </ul>
 </section>
-<section id="section-13" class="slide level2">
+<section id="section-13" class="slide level2" data-background-color="white">
 <h2></h2>
-<h4 id="estructura-flexible-1">Estructura flexible</h4>
+<h4 id="beneficios-de-un-data-paper-1"><span class="yellow">Beneficios</span> <span class="darkblue">de un Data Paper</span></h4>
 <ul>
-<li><span class="yellow">Procesamiento</span> de los datos
-<ul>
-<li>Control de calidad</li>
-</ul></li>
-<li>Descripción y <span class="yellow">citación</span> de los datasets</li>
-<li>Proyectos asociados</li>
-<li><span class="yellow">Licencias de uso</span></li>
-<li><span class="yellow">Referencias</span></li>
+<li>Aumento de la reutilización de los datos</li>
+<li>Aumento de la citación del recurso original</li>
 </ul>
+
+<img data-src="assets/dp_beneficios.png" class="r-stretch quarto-figure-center"><p><span class="smaller"><a href="https://doi.org/10.7818/ECOS.1838">Pérez-Luque &amp; Candeira 2019</a></span></p>
 </section>
 <section id="section-14" class="slide level2">
 <h2></h2>
-<h4 id="sugerencias-descripción-del-proyecto">Sugerencias: <span class="yellow">Descripción del Proyecto</span></h4>
+<h4 id="the-tragedy-of-the-biodiversity-data-commons">The tragedy of the biodiversity data commons</h4>
 
-<img data-src="assets/pheno_project.png" class="r-stretch quarto-figure-center"><p><span class="smaller"><a href="https://doi.org/10.3897/phytokeys.46.9116">Pérez-Luque et al.&nbsp;2015</a></span></p>
+<img data-src="assets/dp_escribano.jpg" class="r-stretch quarto-figure-center"><p><span class="smaller"><a href="https://doi.org/10.1093/database/bay033">Escribano et al.&nbsp;2018</a></span></p>
 </section>
 <section id="section-15" class="slide level2">
 <h2></h2>
-<h4 id="sugerencias-descripción-del-proyecto-1">Sugerencias: <span class="yellow">Descripción del Proyecto</span></h4>
+<h3 id="beneficios-de-un-data-paper-2"><span class="yellow">Beneficios</span> <span class="darkblue">de un Data Paper</span></h3>
+<ul>
+<li>La revisión del conjunto de datos permite la detección de errores, aumentando la calidad del conjunto de datos</li>
+</ul>
 
-<img data-src="assets/pheno_project.png" class="r-stretch quarto-figure-center"><p><span class="smaller"><a href="https://doi.org/10.3897/phytokeys.46.9116">Pérez-Luque et al.&nbsp;2015</a></span></p>
+<img data-src="assets/dp_review.jpg" class="r-stretch quarto-figure-center"></section></section>
+<section>
+<section id="pasos-para-generar-data-papers" class="title-slide slide level1 center">
+<h1>pasos para generar <span class="yellow">Data Papers</span></h1>
+
 </section>
 <section id="section-16" class="slide level2">
 <h2></h2>
-<h4 id="sugerencias-cobertura-taxonómica">Sugerencias: <span class="yellow">Cobertura taxonómica</span></h4>
-<div class="columns">
-<div class="column" style="width:30%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="assets/pheno_taxo_coverage.png"></p>
-</figure>
-</div>
-</div><div class="column" style="width:70%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="assets/pheno_taxo_table.png"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
+<h3 id="pasos-para-generar-data-papers-1">pasos para generar <span class="yellow">Data Papers</span></h3>
+
+<img data-src="assets/dp_pasos.png" class="r-stretch quarto-figure-center"></section>
 <section id="section-17" class="slide level2">
 <h2></h2>
-<h4 id="sugerencias-cobertura-taxonómica-1">Sugerencias: <span class="yellow">Cobertura taxonómica</span></h4>
-<p><img data-src="assets/taxo_marine.png" data-fig-align="center">:::</p>
-<p><span class="smaller"><a href="https://doi.org/10.7818/ECOS.2410">Sánchez-Jardón et al.&nbsp;2022</a></span></p>
+<h4 id="pasos-para-generar-data-papers-2">pasos para generar <span class="yellow">Data Papers</span></h4>
+
+<img data-src="assets/dp_pasos.png" class="r-stretch quarto-figure-center"><p>¿Qué tipos de datos incluir?</p>
+<ul>
+<li>En nuestro caso datos de biodiversidad</li>
+<li>Datos ambientales asociados a datos de biodiversidad</li>
+</ul>
 </section>
 <section id="section-18" class="slide level2">
 <h2></h2>
-<h4 id="sugerencias-cobertura-espacial">Sugerencias: <span class="yellow">Cobertura espacial</span></h4>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="assets/pheno_study_fig.png"></p>
-</figure>
-</div>
-</div><div class="column" style="width:50%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="assets/pheno_study_picture.png"></p>
-</figure>
-</div>
-</div>
-</div>
+<h4 id="pasos-para-generar-data-papers-3">pasos para generar <span class="yellow">Data Papers</span></h4>
+
+<img data-src="assets/dp_lorite.png" class="r-stretch quarto-figure-center"><p><span class="smaller"><a href="https://doi.org/10.1002/ecy.3091">Lorite et al.&nbsp;2020</a></span></p>
 </section>
 <section id="section-19" class="slide level2">
 <h2></h2>
-<h4 id="sugerencias-métodos">Sugerencias: <span class="yellow">Métodos</span></h4>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="assets/pheno_methods.png"></p>
-</figure>
-</div>
-</div><div class="column" style="width:50%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="assets/pheno_methods_fig.png"></p>
-</figure>
-</div>
-</div>
-</div>
+<h4 id="pasos-para-generar-data-papers-4">pasos para generar <span class="yellow">Data Papers</span></h4>
+
+<img data-src="assets/biodiversity_phytokeys.png" class="r-stretch quarto-figure-center"><p><span class="smaller"><a href="https://doi.org/10.3897%2Fphytokeys.46.9116">Pérez-Luque et al.&nbsp;2015</a></span></p>
 </section>
 <section id="section-20" class="slide level2">
 <h2></h2>
-<h4 id="sugerencias-preparación-de-los-datos-quality-control">Sugerencias: <span class="yellow">Preparación de los datos; Quality Control</span></h4>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="assets/capra_gbif.png"></p>
-</figure>
-</div>
-<p><span class="smaller"><a href="https://doi.org/10.1038/s41597-020-0544-1">Granados et al.&nbsp;2020</a></span></p>
-</div><div class="column" style="width:50%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="assets/capra_validation.png"></p>
-</figure>
-</div>
-</div>
-</div>
+<h4 id="pasos-para-generar-data-papers-5">pasos para generar <span class="yellow">Data Papers</span></h4>
+
+<img data-src="assets/dp_pasos.png" class="r-stretch quarto-figure-center"><p>¿Cuantos conjuntos de datos incluir en el DP?</p>
+<ul>
+<li>Conjugar intereses autor / publicador / institución / revista</li>
+<li>1 dataset solo <em>vs.</em> varios datasets</li>
+</ul>
 </section>
 <section id="section-21" class="slide level2">
 <h2></h2>
-<h4 id="sugerencias-cómo-usar-los-datos">Sugerencias: <span class="yellow">Cómo usar los datos</span></h4>
+<p><span class="smaller"><a href="https://doi.org/10.3897/zookeys.403.7149">Galicia et al.&nbsp;2014</a></span></p>
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="assets/capra_usage.png"></p>
+<p><img data-src="assets/dp_navarra.png"></p>
 </figure>
 </div>
 </div><div class="column" style="width:50%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="assets/capra_explore.png"></p>
+<p><img data-src="assets/dp_navarra_1dataset.png"></p>
 </figure>
 </div>
-<p><span class="smaller"><a href="https://doi.org/10.1038/s41597-020-0544-1">Granados et al.&nbsp;2020</a></span></p>
 </div>
 </div>
 </section>
 <section id="section-22" class="slide level2">
 <h2></h2>
-<h4 id="sugerencias-localización-del-dataset">Sugerencias: <span class="yellow">Localización del dataset</span></h4>
-
-<img data-src="assets/pheno_dataset.png" class="r-stretch quarto-figure-center"></section>
+<p><span class="smaller"><a href="https://doi.org/10.1038/sdata.2016.91">Rodeles et al.&nbsp;2016</a></span></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="assets/dp_navarra.png"></p>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="assets/dp_navarra_varios.png"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
 <section id="section-23" class="slide level2">
 <h2></h2>
-<h4 id="otras-consideraciones"><span class="yellow">Otras consideraciones</span></h4>
+<h4 id="pasos-para-generar-data-papers-6">pasos para generar <span class="yellow">Data Papers</span></h4>
+
+<img data-src="assets/dp_pasos.png" class="r-stretch quarto-figure-center"><p>¿Autores?</p>
 <ul>
-<li>Un DP no es una copia de los metadatos que un dataset tiene en un repositorio</li>
-<li>Es importante describir bien los métodos</li>
-<li>Uso de diccionarios controlados en la medida de los posible</li>
-<li>…</li>
-<li>En definitiva se trata de hacer <span class="yellow">atractivo</span> nuestro conjunto de datos para que aumente sus posibilidads de uso</li>
+<li>Definir responsabilidades</li>
+<li>Los creadores del recurso no tienen porque ser los autores del artículo</li>
+<li>Crédito</li>
+<li>Responsabilidad</li>
 </ul>
 </section>
 <section id="section-24" class="slide level2">
 <h2></h2>
-<h4 id="principios-fair">Principios <span class="yellow">FAIR</span></h4>
 
-<img data-src="assets/fairness_data.png" class="r-stretch quarto-figure-center"></section>
+<img data-src="assets/dp_migrame.png" class="r-stretch quarto-figure-center"><p><span class="smaller"><a href="https://doi.org/10.3897/phytokeys.56.5482">Pérez-Luque et al.&nbsp;2015</a></span></p>
+</section>
+<section id="section-25" class="slide level2">
+<h2></h2>
+<h4 id="pasos-para-generar-data-papers-7">pasos para generar <span class="yellow">Data Papers</span></h4>
+
+<img data-src="assets/dp_pasos.png" class="r-stretch quarto-figure-center"><p>¿donde publicar?</p>
+<ul>
+<li>Buscar revistas donde se puedan publicar Artículos de Datos</li>
+<li>Conjugar intereses Autores / Editores</li>
+<li>Disponibilidad de presupuesto</li>
+<li>Factor de Impacto</li>
+</ul>
+</section></section>
+<section>
+<section id="donde-publicar-data-papers" class="title-slide slide level1 center">
+<h1>¿donde publicar <span class="yellow">Data Papers</span>?</h1>
+
+</section>
+<section id="section-26" class="slide level2">
+<h2></h2>
+<p>Listados con revistas de Datos:</p>
+<ul>
+<li><p><a href="https://www.gbif.org/es/data-papers">GBIF https://www.gbif.org/es/data-papers</a></p></li>
+<li><p><a href="https://www.fosteropenscience.eu/taxonomy/term/114">Foster Open Science</a></p></li>
+</ul>
+
+<img data-src="assets/dp_journals.png" class="r-stretch quarto-figure-center"></section>
+<section id="section-27" class="slide level2">
+<h2></h2>
+<h4 id="donde-publicar-data-papers-1">¿donde publicar <span class="yellow">Data Papers</span>?</h4>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="assets/dp_amano.png" height="300"></p>
+</figure>
+</div>
+<ul>
+<li>65% de las fuentes citadas no eran en lengua inglesa</li>
+</ul>
+<p><span class="smaller"><a href="https://doi.org/10.1038/s41893-023-01087-8">Amano et al.&nbsp;2023</a></span></p>
+</section>
+<section id="section-28" class="slide level2">
+<h2></h2>
+<h4 id="biota-colombiana-httprevistas.humboldt.org.coindex.phpbiota"><span class="yellow">Biota Colombiana</span> <a href="http://revistas.humboldt.org.co/index.php/biota">http://revistas.humboldt.org.co/index.php/biota</a></h4>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="assets/dp_biota.png"></p>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="assets/dp_biota_dp.png"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="section-29" class="slide level2">
+<h2></h2>
+<h4 id="ecosistemas"><span class="yellow">Ecosistemas</span></h4>
+
+<img data-src="assets/dp_apuesta.png" class="r-stretch quarto-figure-center"><ul>
+<li>Las revistas que ya publican artículos de datos en castellano generalmente tienen un ámbito geográfico o una tipología de datos restringidos en comparación con el alcance geográfico y tipo de audiencia de Ecosistemas</li>
+<li>10 envíos (3 rechazados; 3 aceptados; 4 en revisión)</li>
+</ul>
+</section>
+<section id="section-30" class="slide level2">
+<h2></h2>
+<h4 id="ecosistemas-1"><span class="yellow">Ecosistemas</span></h4>
+<p><a href="https://www.revistaecosistemas.net/">https://www.revistaecosistemas.net/</a></p>
+
+<img data-src="assets/dp_ecosistemas_ejemplo.png" class="r-stretch quarto-figure-center"></section>
+<section id="section-31" class="slide level2">
+<h2></h2>
+<h4 id="editorial-pensoft"><span class="yellow">Editorial Pensoft</span></h4>
+
+<img data-src="assets/dp_pensoft.png" class="r-stretch quarto-figure-center"></section>
+<section id="section-32" class="slide level2">
+<h2></h2>
+<h3 id="editorial-pensoft-1"><span class="yellow">Editorial Pensoft</span></h3>
+<p>Arpha Writing Tool <a href="https://arpha.pensoft.net/">https://arpha.pensoft.net/</a></p>
+
+<img data-src="assets/arpha_entry.png" class="r-stretch quarto-figure-center"></section>
 <section id="muchas-gracias" class="slide level2">
 <h2>Muchas Gracias</h2>
 <p><span class="yellow">Antonio J. Pérez-Luque</span></p>
@@ -643,19 +699,19 @@
   </div>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script>
-  <script src="dp_structure_files/libs/revealjs/dist/reveal.js"></script>
+  <script src="dp_intro_files/libs/revealjs/dist/reveal.js"></script>
   <!-- reveal.js plugins -->
-  <script src="dp_structure_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
-  <script src="dp_structure_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
-  <script src="dp_structure_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
-  <script src="dp_structure_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="dp_structure_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  <script src="dp_intro_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="dp_intro_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="dp_intro_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="dp_intro_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="dp_intro_files/libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
-  <script src="dp_structure_files/libs/revealjs/plugin/notes/notes.js"></script>
-  <script src="dp_structure_files/libs/revealjs/plugin/search/search.js"></script>
-  <script src="dp_structure_files/libs/revealjs/plugin/zoom/zoom.js"></script>
-  <script src="dp_structure_files/libs/revealjs/plugin/math/math.js"></script>
+  <script src="dp_intro_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="dp_intro_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="dp_intro_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="dp_intro_files/libs/revealjs/plugin/math/math.js"></script>
   <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
 
   <script>

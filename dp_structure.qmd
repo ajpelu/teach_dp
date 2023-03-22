@@ -157,6 +157,32 @@ Una visión a través de los diferentes *journals*
 [[Ros-Candeira et al. 2020](https://doi.org/10.3897/natureconservation.38.38325)]{.smaller}
 
 ## 
+#### Estructura flexible 
+- [Introducción]{.yellow}
+	
+	- contexto de los datos
+	- proyecto
+
+- [Cobertura]{.yellow} de los datos: taxonómica, espacial, temporal
+
+- [Protocolos]{.yellow} 
+  
+  - Diseño experimental
+  - Procedimientos, técnicas de conservación, variables
+
+## 
+#### Estructura flexible
+
+
+- [Procesamiento]{.yellow} de los datos
+	- Control de calidad
+
+- Descripción y [citación]{.yellow} de los datasets
+- Proyectos asociados
+- [Licencias de uso]{.yellow}
+- [Referencias]{.yellow}
+
+## 
 #### Sugerencias: [Descripción del Proyecto]{.yellow}
 
 ![](assets/pheno_project.png){fig-align="center"}
