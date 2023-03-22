@@ -1,0 +1,60 @@
+1. Editar autores 
+- permisos
+- Add autors (algunos ya tienen perfil creado)
+
+2. Contributors
+- ayudan pero no firman, con diferentes roles
+
+3. Incorporar otro material 
+
+- Primero subir el contenido a la plataforma
+- Referenciar contenido
+
+3a. Figuras
+- Editar 
+	- Add image
+		- Completar pie de figura
+		- Añadir imagen 
+- Orden figuras
+3b. Tablas
+- Idem
+- Importar: 
+	- copiar desde procesador de texto o desde excel 
+	- construir con su editor
+- También podemos descargarla
+
+3c. Referencias
+	- Manualmente
+		- Completar formulario
+	- Importación: 
+		- doi / revisar metadatos 
+	- Texto plano 
+		- Identificar metadatos de la referencia (revisar)
+	- Importar desde un Gestor 
+		- seleccionar archivo 
+			referencias.xml 
+			referencias_zotero.bib ?
+
+4. Referenciar elementos del texto
+
+5. Finalizar Data Papers 
+	- Validate 
+		¿Están todos los datos bien introducidos?
+		¿Están todas las tablas citadas?
+		... 
+	- Submit -> NO darle porque le llegan 
+
+
+6. Opciones 
+	- Dashboard
+	- Collections (colecciones de artículos)
+	- Invitar revisores
+	- Mail a los contributos
+	- Feedback a la Editorial 
+	- How to? Consejos  
+	- Tutorial interactivo de la plataforma  
+	- Historial de Revision
+	- Seguimiento de cambios 
+		- visualizarlo
+		- Comentarios
+		- Etc. 
