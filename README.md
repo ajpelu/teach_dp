@@ -2,11 +2,11 @@
 
 Este repositorio contiene parte del material del Taller ***Estandarización y publicación de datos de biodiversidad marinos en GBIF y en revistas científicas (data papers)*** organizado por el [Nodo Español de GBIF](https://www.gbif.es/talleres/estandarizacion-publicacion-datos-marinos/). 
 
-## <img src='assets/display-solid.svg' width='25'> [Introducción a los Artículos de Datos](https://ajpelu.github.io/teach_dp/2025/dp_intro2025.html) 
+## <img src='assets/display-solid.svg' width='25'> [Introducción a los Artículos de Datos](https://ajpelu.github.io/teach_dp/dp_intro2025.html) 
 
-## <img src='assets/display-solid.svg' width='25'> [Del IPT al artículo de datos](https://ajpelu.github.io/teach_dp/2025/ipt2dp2025.html) 
+## <img src='assets/display-solid.svg' width='25'> [Del IPT al artículo de datos](https://ajpelu.github.io/teach_dp/ipt2dp2025.html) 
 
-## <img src='assets/display-solid.svg' width='25'> [Estructura del artículo de datos](https://ajpelu.github.io/teach_dp/2025/dp_structure2025.html)
+## <img src='assets/display-solid.svg' width='25'> [Estructura del artículo de datos](https://ajpelu.github.io/teach_dp/dp_structure2025.html)
 
 ## <img src='assets/github.svg' width='30'> [Repositorio](https://github.com/ajpelu/teach_dp) con material
 
